@@ -63,8 +63,8 @@ if st.button("Predict Booking Status"):
 
     # Display the prediction
     if prediction > 0.5:
-        st.success("The booking is likely to be cancelled.")
-    else:
         st.success("The booking is likely to be maintained.")
+    else:
+        st.success("The booking is likely to be cancelled.")
 
 
