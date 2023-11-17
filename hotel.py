@@ -49,6 +49,8 @@ market_segment_encoded = {"Aviation": 0, "Complementary": 0, "Corporate": 0, "Of
 market_segment_encoded[market_segment_type] = 1
 market_segment_features = list(market_segment_encoded.values())
 
+    # Display the prediction value
+st.write("Prediction Value:", prediction[0])
 # Button to Predict
 if st.button("Predict Booking Status"):
     # Prepare the feature array for prediction
